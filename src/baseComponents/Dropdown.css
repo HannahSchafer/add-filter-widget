@@ -1,0 +1,78 @@
+.dropdown-wrapper {
+  position: relative;
+}
+
+.dropdown {
+  background: var(--white);
+  border: 1px solid var(--black);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  left: 0;
+  margin-top: 0.2rem;
+  max-height: 200px;
+  overflow-y: auto;
+  position: absolute;
+  top: 100%;
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+  width: 100%;
+  z-index: 999;
+}
+
+.dropdown-item {
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.dropdown-item:hover,
+.dropdown-item.highlighted {
+  background-color: var(--light-blue);
+  display: flex;
+}
+
+.dropdown-option {
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  padding: 0.5rem;
+}
+
+.dropdown-option input[type="checkbox"] {
+  margin-right: 0.6rem;
+}
+
+.dropdown::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+.dropdown::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.dropdown::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+.dropdown::-webkit-scrollbar-track {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.react-window-item {
+  align-items: center;
+  display: flex;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.react-window-item.highlighted {
+  background-color: #e0e0e0;
+}

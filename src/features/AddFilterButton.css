@@ -1,0 +1,23 @@
+.add-filter-button {
+  background-color: var(--light-blue);
+  border: none;
+  border-radius: 4px;
+  color: var(--white);
+  cursor: pointer;
+  padding: 0.5rem 0.75rem;
+  font-size: 1.2rem;
+  transition: background-color 0.2s ease;
+}
+
+.add-filter-button:focus {
+  background-color: var(--primary-blue);
+}
+
+.add-filter-button:hover {
+  background-color: var(--primary-blue);
+}
+
+.add-filter-button.disabled {
+  background-color: var(--gray-100);
+  cursor: not-allowed;
+}
