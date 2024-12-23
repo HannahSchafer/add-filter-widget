@@ -48,3 +48,4 @@
 4. Aditional performance optimizations for very large datasets (debounced search, lazy loading)
 5. UI polish and fixes
 6. Localization / internationalization
+7. Add 'no results' state
